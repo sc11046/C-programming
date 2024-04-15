@@ -6,6 +6,12 @@
 
 동적으로 각 칸들이 앞, 뒤로 사슬처럼 연결되어 있는 자료구조
 
+![image-20240415210430853](C:\Users\sc110\AppData\Roaming\Typora\typora-user-images\image-20240415210430853.png)
+
+연결리스트를 쓰는 이유?
+
+
+
 ```c
 #include <stdio.h>
 #include <string.h>
