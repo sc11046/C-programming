@@ -80,7 +80,11 @@ int main()
 }
 ```
 
-list[5]를 만들어 준 뒤 각 NODE별로 데이터와 다음 노의 주소를 저장 뒤 출력 한다.
+list[5]를 만들어 준 뒤 각 NODE별로 데이터와 다음 노의 주소를 저장하고 헤드를 list[0]으로 고정한다.
 
 ![image](https://github.com/sc11046/Capstone/assets/121782720/2c354876-c7bc-41d6-95f7-84c77df3e196)
+
+![image](https://github.com/sc11046/Capstone/assets/121782720/558a2e99-9249-4772-8e60-24b7c2b537a5)
+
+노드를 원하고 만큼 생성하고 삭제 할 수 있어야 되므로 동적으로 연결리스트를 만들어야 한다.
 
