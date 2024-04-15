@@ -9,9 +9,9 @@ typedef struct NODE{
 NODE* g_pHead = NULL;
 ```
 
-문자열 형태의 배열을 선언 한 뒤 다음 노드의 주소를 저장 할 수 있는 next변수를 선언한다.
+문자열 형태의 배열을 선언 한 뒤 **다음 노드의 주소를 저장** 할 수 있는 **next변수를 선언**한다.
 
-전역으로 연결 리스트의 시작점을 나타내는 헤드 포인터를 선언하고 , 이 헤드 포인터는 연결 리스트의 첫 번째 노드를 가리키는 역할로 Null로 초기화한다.
+전역으로 **연결 리스트의 시작점**을 나타내는 헤드 포인터를 선언하고 , 이 헤드 포인터는 연결 리스트의 첫 번째 노드를 가리키는 역할로 **Null로 초기화**한다.
 
 ```c
 void Printlist(void)
@@ -26,9 +26,9 @@ void Printlist(void)
 }
 ```
 
-Printlist함수에서는 반환형은 없고, 다음 노드의 주소가 Null이 될때까지 출력한다.
+Printlist함수에서는 반환형은 없고, 다음 노드의 주소가 **Null이 될때까지 출력**한다.
 
-다음 노드의 주소를 저장시켜 반복적으로 현재 노드의 주소, 데이터, 다음 노드의 주소를 출력한다.
+다음 노드의 주소를 저장시켜 반복적으로 **현재 노드의 주소, 데이터, 다음 노드의 주소를 출력**한다.
 
 ```c
 int InsertNewNode(char* pszData)
@@ -48,11 +48,11 @@ int InsertNewNode(char* pszData)
 
 데이터 삽입 성공 유무를 확인하기 위해 int반환형으로 함수를 생성한다.
 
-Node구조체의 크기만큼 pNode를 동적 할당을 하고 memset함수를 통해 Node크기만큼 0으로 pNode를 초기화한다.
+**Node구조체의 크기만큼 pNode를 동적 할당**을 하고 memset함수를 통해 Node크기만큼 0으로 pNode를 초기화한다.
 
-새로운 노드의 데이터를 복사, `pszData`에 있는 문자열을 `pNode->szData`에 복사한다.
+ `pszData`에 있는 문자열을 `pNode->szData`에 복사한다.
 
-`	if (g_pHead == NULL)g_pHead = pNode;` Head의 주소가 없다면 새로 생성된 노드의 주소로 한다.
+`	if (g_pHead == NULL)g_pHead = pNode;` **Head의 주소가 없다면 새로 생성된 노드의 주소**로 한다.
 
 `	else {		pNode->next = g_pHead;
 				g_pHead = pNode;	}` **가장 중요한 부분**
