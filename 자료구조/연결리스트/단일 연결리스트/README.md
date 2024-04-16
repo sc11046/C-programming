@@ -1,4 +1,6 @@
-# 단일 연결리스트-1
+# 단일 연결리스트
+
+## 원문 코드 : code.c 참고
 
 ```c
 typedef struct NODE{
