@@ -17,4 +17,4 @@
     }
 ```
 
-![image](https://github.com/sc11046/C-programming/assets/121782720/5cca05d6-882e-47fd-8b65-fcc8e515886a)
+![image](https://github.com/sc11046/C-programming/assets/121782720/13f99a22-765f-4beb-b6cf-2d9ad6b2c082)
