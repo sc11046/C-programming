@@ -88,3 +88,7 @@ if (prevNode == NULL) // 삭제하려는 노드가 첫 번째 노드일 경우
 ```
 
 이전 노드를 삭제하고자 하는 다음 노드로 이동시키고 순회 노드가 가르키던 노드를 삭제시킨다.
+
+출력
+
+![image](https://github.com/sc11046/C-programming/assets/121782720/23c35566-a911-4348-aa5a-5c1c32e6aff3)
