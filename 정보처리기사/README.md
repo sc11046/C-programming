@@ -11,6 +11,7 @@
 원인 : 개발 비용 증가, 유지 보수 비용<br><br>
 2) 소프트웨어 공학<br>
 신뢰성 중요<br>
+</details>
 
 <details>
     <summary>2- 재공학</summary>
@@ -36,6 +37,7 @@
 통합 : 소프트웨어 개발 주기 전체 과정 지원 관리<br><br>
 3-4) 요구사항 분석을 위한 CASE도구<br>
 SADT : SotfTech사에서 개발 된 CASE를 도와주는 소프트웨어 툴, 시스템 정의, 소프트웨어 요구사항 분석 및 설계 도구, <br>구조적 요구분석을 하기 위해 블록 다이어 그램을 채택하는 자동화 도구<br>
+</details>
 
 <details>
     <summary>3- 소프트웨어 개발 방법론</summary>
@@ -94,6 +96,7 @@ Sustainable Pace : 개발자에게 너무 과도한 업무 x<br>
 사람 - 인적 자원<br>
 문제 - 문제 인식<br>
 프로세스 - 작업 계획<br>
+</details>
 
 <details>
     <summary>4- SCRUM</summary>
@@ -105,6 +108,7 @@ Sustainable Pace : 개발자에게 너무 과도한 업무 x<br>
 제품 책임자 : 개발 담당자, 요구사항 파악 후 기능 목록 작성, 우선순위 설정<br>
 스크럼 마스터 : 업부 배분만 함, 감독의 느낌<br>
 스크럼 팀 : 이외 나머지 팀원 기능을 작업 단위로 분류<br>
+</details>
 
 <details>
     <summary>5- 현행 시스템 분석</summary>
@@ -165,6 +169,7 @@ Apache 2.0 :  SW적용을 위해 제공하는 라이선스 ex) HADOOP<br><br>
 DBMS종류, 버전 등을 분석<br>
 6-3) 고려사항<br>
 가용성, 성능 기술지원, 상호 호환성, 구축 비용<br>
+</details>
 
 <details>
     <summary>6- 요구 사항 개발</summary>
@@ -240,6 +245,7 @@ DBMS종류, 버전 등을 분석<br>
 2-4) 인수 테스트<br>
 실제 고객에게 전달하고 요구사항이 맞는지 확인<br>
 종류 : 계약 인수, 규정 인수, 알파 검사, 베타 검사, 사용자 인수 테스트 , 운영 인수 테스트<br>
+</details>
 
 
 
